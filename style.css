@@ -1,0 +1,384 @@
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(28, 25, 45);
+    overflow-x: hidden;
+
+
+}
+
+
+
+
+.part1 h2{
+    color: #2af528;
+    font-size: 75px;
+}
+
+.part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.part1 p{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+.part2 h2{
+    color: #fff900;
+    font-size: 60px;
+}
+
+.part2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    
+    
+    
+}
+.part2 div{
+    width: 35%;
+    height: 300px;
+    overflow-y: hidden;
+    margin-bottom: 20px;
+}
+.part2 div img{
+    width: 100%;
+    height: 100%;
+}
+.part2 div:nth-child(1){
+    transform: translateX(-150%);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.part2.show-animation div:nth-child(1){
+    transform: translateX(0);
+
+}
+
+.part2 div:nth-child(2){
+    transform: translateX(150%);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.part2.show-animation div:nth-child(2){
+    transform: translateX(0);
+
+}
+.part2 div:nth-child(3){
+    transform: translateX(150%);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.part2.show-animation div:nth-child(3){
+    transform: translateX(0);
+
+}
+.part2 div:nth-child(4){
+    transform: translateX(-150%);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.part2.show-animation div:nth-child(4){
+    transform: translateX(0);
+
+}
+
+
+
+
+
+
+.part3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transform: translateX(-150%);
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.part3 .animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    
+}
+.part3.show-animation {
+    transform: translateX(0);
+}
+
+.part3 p{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.part3 h2{
+    color: #ff0000;
+    font-size: 65px;
+}
+
+
+
+
+
+.part4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    
+    
+    
+}
+.part4 div{
+    width: 35%;
+    height: 300px;
+    overflow-y: hidden;
+    margin-bottom: 15px;
+}
+.part4 div img{
+    width: 100%;
+}
+
+.part4 h2{
+    color: #fed58f;
+    font-size: 75px;
+}
+
+.part4 div:nth-child(1){
+    transform: translateX(-150%);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.part4.show-animation div:nth-child(1){
+    transform: translateX(0);
+
+}
+
+.part4 div:nth-child(2){
+    transform: translateX(150%);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.part4.show-animation div:nth-child(2){
+    transform: translateX(0);
+
+}
+.part4 div:nth-child(3){
+    transform: translateX(150%);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.part4.show-animation div:nth-child(3){
+    transform: translateX(0);
+
+}
+.part4 div:nth-child(4){
+    transform: translateX(-150%);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.part4.show-animation div:nth-child(4){
+    transform: translateX(0);
+
+}
+
+
+
+
+
+
+.part5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+    
+}
+.part5 .animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.part5 p{
+    color: aliceblue;
+    font-size: 20px;
+}
+.part5 h2{
+    color: #fed58f;
+    font-size: 65px;
+}
+
+.part5.show-animation{
+    transform: scale(0.9);
+}
+
+
+
+.part6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    
+    
+}
+.part6 div{
+    width: 35%;
+    height: 300px;
+    overflow-y: hidden;
+    margin-bottom: 20px;
+}
+.part6 div img{
+    width: 100%;
+}
+
+
+.part6 div:nth-child(1){
+    transform: translateX(-150%);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.part6.show-animation div:nth-child(1){
+    transform: translateX(0);
+
+}
+
+.part6 div:nth-child(2){
+    transform: translateX(150%);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.part6.show-animation div:nth-child(2){
+    transform: translateX(0);
+
+}
+.part6 div:nth-child(3){
+    transform: translateX(150%);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.part6.show-animation div:nth-child(3){
+    transform: translateX(0);
+
+}
+.part6 div:nth-child(4){
+    transform: translateX(-150%);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.part6.show-animation div:nth-child(4){
+    transform: translateX(0);
+
+}
+
+
+
+
+
+
+
+.part7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transform: translateX(150%);
+    transition: all 0.3s ease-in-out;
+    
+}
+.part7 .animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.part7 p{
+    color: aliceblue;
+    font-size: 20px;
+}
+.part7 h2{
+    color: #fed58f;
+    font-size: 65px;
+}
+
+.part7.show-animation{
+    transform: translateX(0);
+}
+
+
+
+
+.part8{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    
+    
+}
+.part8 div{
+    width: 35%;
+    height: 300px;
+    overflow-y: hidden;
+    margin-bottom: 15px;
+}
+.part8 div img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .part1 h2 , .part5 h2 , .part7 h2{
+         font-size: 40px;
+    }
+    .part1 p , .part5 p , .part3 p, .part7 p{
+        font-size: 15px;
+    }
+.part3 h2{
+    font-size:30px ;
+}
+.part2 div, .part4 div ,.part6 div, .part8 div{
+    width: 90%;
+    height: 300px;
+    overflow-y: hidden;
+    margin-bottom: 20px;
+}
+
+    
+  }
